@@ -23,7 +23,7 @@ body{
   background: #565151;
   padding: 20px 25px 25px;
   border-radius: 25px;
-  max-width: 400px;
+  max-width: 700px;
   width: 100%;
 }
 .select-box.hide{
@@ -204,6 +204,6 @@ body{
 @media screen and (max-width:1000px)
 {
 body{
-  background-color:#f5f8f9;
+  background-color:grey;
      } 
 }
