@@ -119,8 +119,8 @@ body{
   left: 0;
   width: 50%;
   height: 100%;
-  background: #56baed;
-  border-radius: 5px;
+  background: #575858;
+  border-radius: 15px;
   transition: all 0.3s ease;
 }
 .players.active .slider{
@@ -147,7 +147,7 @@ body{
   height: 90px;
   width: 90px;
   margin: 2px;
-  color: #56baed;
+  color: #4d4c4c;
   font-size: 40px;
   line-height: 80px;
   text-align: center;
@@ -157,12 +157,12 @@ body{
 
 .result-box{
   padding: 25px 20px;
-  border-radius: 5px;
+  border-radius: 15px;
   max-width: 400px;
   width: 100%;
   opacity: 0;
   text-align: center;
-  background: #fff;
+  background: #5e5d5d;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
 }
@@ -176,8 +176,10 @@ body{
   font-weight: 500;
   display: flex;
   justify-content: center;
+  color: #ddd9d9;
 }
 .result-box .won-text p{
+  color: #ddd9d9;
   font-weight: 600;
   margin: 0 5px;
 }
@@ -193,15 +195,15 @@ body{
   padding: 8px 20px;
   border: none;
   background: #56baed;
-  border-radius: 5px;
+  border-radius: 15px;
   color: #fff;
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-@media (max-width:768px)
+@media screen and (max-width:1000px)
 {
-.body{
-  background:#009688;
+body{
+  background-color:#f5f8f9;
      } 
 }
